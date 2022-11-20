@@ -1,0 +1,75 @@
+<div class="page">
+  <div class="header">
+    <img class="img" src="../assets/logo.svg" style="max-width: 26vh;">
+  </div>
+  <br>
+  <div class="container" style="margin: 10px;">
+    <div class="row">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Air Quality</h5>
+          <div class="card-content">
+            <h1 class="quality-guide">{{airQuality}}</h1>
+            <div class="up-down">
+              <div class="top"><i class="fas fa-arrow-up" style="color: lightseagreen;"></i> 93</div>
+              <hr>
+              <div class="down"><i class="fas fa-arrow-down" style="color: orange;"></i> 61</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Temperature</h5>
+          <div class="card-content">
+            <h1 class="temp-guide">{{temperature}}<span class="celcius">°C</span></h1>
+            <div class="up-down">
+              <div class="top"><img src="../assets/fire.svg" width="12px"> 26<span class="celcius">°C</span></div>
+              <hr>
+              <div class="down"><img src="../assets/snowflake.svg" width="12px"> 18<span class="celcius">°C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Audio</h5>
+          <div class="card-content" style="display: flex;">
+            <h1 class="audio-guide">{{audio}}</h1>
+            <h6 class="play">PLAYING</h6>
+            <div class="total">Total
+              <h5>51</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="padding-left: 25vh;">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Displays</h5>
+          <div class="card-content" style="display: flex;">
+            <h1 class="display-guide">{{display}}<span class="celcius">/16</span></h1>
+            <div class="vl"></div>
+            <div class="on-time">On Time
+              <h5>00:00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Lighting</h5>
+          <div class="card-content" style="display: flex;">
+            <h1 class="audio-guide">{{lighting}}</h1>
+            <h6 class="play">ON</h6>
+            <div class="total">Total
+              <h5>43</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.page {
+  height: 640px;
+  background-color: rgb(237, 237, 237);
+  margin-left: 150px;
+  width: 900px;
+  font-family: Rota;
+}
+
+.row {
+  flex-wrap: nowrap;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+.card {
+  border-radius: 1rem;
+  background: rgb(224, 224, 224);
+  border: 0;
+  margin: 1em;
+  width: 16rem;
+}
+
+.card-content {
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+.quality-guide {
+  height: 80px;
+  width: 80px;
+  background: #6DD0A5;
+  border-radius: 50%;
+  float: left;
+  font-size: 2.9em;
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.up-down {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  /* margin-top: 10px; */
+  margin-right: 40px;
+  color: #999999;
+}
+
+.temp-guide {
+  height: 80px;
+  width: 80px;
+  background: #5448C8;
+  border-radius: 50%;
+  float: left;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.celcius {
+  font-size: large;
+}
+
+hr {
+  margin-bottom: 3px;
+  margin-top: 1px;
+  float: right;
+  width: 13vh;
+}
+
+.audio-guide {
+  color: #5448C8;
+  font-size: 4rem;
+}
+
+.play {
+  margin-top: 12px;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #6DD0A5;
+  color: white;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.fas {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+.total {
+  margin-top: 17px;
+  margin-left: 1rem;
+  color: #999999;
+}
+
+.display-guide {
+  color: #5448C8;
+  font-size: 4rem;
+}
+
+.vl {
+  border-left: 1px solid #999999;
+  height: 11vh;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+
+.on-time {
+  color: #999999;
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+h5 {
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+}
